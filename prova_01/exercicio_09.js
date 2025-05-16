@@ -5,7 +5,7 @@ let menorTempo = tempos[0];
 let indiceMenor = 0;
 
 for (let i = 0; i < tempos.length; i++) {
-    if (tempos[i] < menorTempo){
+    if (tempos[i] < menorTempo) {
         menorTempo = tempos[i];
         indiceMenor = i;
     }
